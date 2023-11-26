@@ -4,13 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="scripts.js" defer></script>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap" 
+    rel="stylesheet">
     <title>Conversor de Moeda</title>
 </head>
 <body>
-    <div id="titulo-da-pagina">
+
+    <!-- Criando o cabeçalho -->
+
+ <div id="container-all">
+    <div id="cabecalho-container">
+        <img src="img/moedaslogo.png" alt="Logo-do-conversor">
         <h1>Conversor de Moedas</h1>
     </div>
+
+    <!-- Criando a parte onde a pessoa escolhe as moedas -->
+
+    <div id="escolhas-container">
+        <div id="sua-moeda">
+            <h4>Escolha sua moeda</h4>
+            <select id="moedas">
+                <option value="none"></option>
+                <option value="brl">Real Brasileiro</option>
+                <option value="usd">Dólar Americano</option>
+                <option value="eur">Euro</option>
+                <option value="jpy">Iene Japonês</option>
+                <option value="gbp">Libra Esterlina</option>
+                <option value="cad">Dólar Canadense</option>
+                <option value="chf">Franco Suíço</option>
+                <option value="aud">Dólar Australiano</option>
+                <option value="cny">Renminbi Chinês</option>
+                <option value="inr">Rupia Indiana</option>
+            </select>
+        </div>
+        <p id="seta">=></p>
+        <div id="outra-moeda">
+            <h4>Escolha outra moeda</h4>
+            <select id="moedas2">
+                <option value="none"></option>
+                <option value="brl">Real Brasileiro</option>
+                <option value="usd">Dólar Americano</option>
+                <option value="eur">Euro</option>
+                <option value="jpy">Iene Japonês</option>
+                <option value="gbp">Libra Esterlina</option>
+                <option value="cad">Dólar Canadense</option>
+                <option value="chf">Franco Suíço</option>
+                <option value="aud">Dólar Australiano</option>
+                <option value="cny">Renminbi Chinês</option>
+                <option value="inr">Rupia Indiana</option>
+            </select>
+        </div>
+    </div>
+
+    <!-- Criando a parte que converterá os valores -->
+
+        <div id="valores">
+            <div id="digite">
+                <p>Digite seu valor</p>
+                <input type="number" name="valor" id="valor">
+            </div>
+            <div id="botao">
+                <button id="botao1">Converter</button>
+            </div>
+            <div id="resultado">
+                <input type="text" name="result" id="result" disabled>
+            </div>
+        </div>
+  </div>
 
 </body>
 </html>

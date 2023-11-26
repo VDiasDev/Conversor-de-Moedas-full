@@ -1,0 +1,101 @@
+body{
+    font-family: "Roboto";
+    background-color: rgb(220, 220, 220);
+
+}
+
+#container-all {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#cabecalho-container {
+
+    border: 2px solid black;
+    height: 150px;
+    width: 650px;
+    align-items: center;
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    background-image: url(../img/bandeiras-nacionais-dos-diferentes-paises-do-mundo-em-um-heap-disperso-bandeira-brasileira-no-centro_113767-1.avif);
+    background-size: cover;
+    color: rgb(55, 55, 55);
+    border-radius: 5rem;
+}
+
+h1 {
+    background-color: rgb(255, 245, 157);
+    margin-left: 2rem;
+    padding: 1rem 1rem;
+    border-radius: 5rem;
+    border: 5px solid rgb(55, 55, 55);
+}
+
+#cabecalho-container img {
+    height: 100px;
+    margin-left: 3rem;
+}
+
+/* Escolhas */
+
+#escolhas-container {
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 100px;
+    background-color: white;
+    border-radius: 5rem;
+}
+
+#sua-moeda, #outra-moeda {
+    flex: 0.5;
+}
+
+h4 {
+    margin: 5px;
+}
+
+#seta {
+    font-size: 2rem;
+}
+
+/* Valores */
+
+#valores {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 5%;
+    margin-top: 2rem;
+    height: 200px;
+    background-color: white;
+}
+
+#digite p {
+    margin-top: 1rem;
+    padding-top: 5px;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    font-size: 1rem;
+}
+
+#botao {
+    padding: 0.5rem;
+}
+
+#botao #botao1{
+    padding: 0.4rem;
+    background-color: rgb(115, 224, 115);
+}
+
+#resultado {
+    margin: 0.6rem 0rem;
+}
+
+#result {
+    height: 1.5rem;
+}
